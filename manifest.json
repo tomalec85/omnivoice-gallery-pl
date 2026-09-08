@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "name": "Polskie głosy żeńskie",
+  "updated_at": "2026-09-08",
+  "homepage": "https://github.com/tomalec85/omnivoice-gallery-pl",
+  "packs": [
+    {
+      "id": "polish-female",
+      "name": "Polskie głosy żeńskie",
+      "description": "Zestaw zaprojektowanych głosów kobiecych po polsku do VoiceStudio (OmniVoice).",
+      "icon": "Sparkles",
+      "item_ids": [
+        "pl_ciepla_rozmowa",
+        "pl_lektorka",
+        "pl_niska_narratorka",
+        "pl_nastolatka",
+        "pl_dojrzala",
+        "pl_jasny_szept",
+        "pl_mloda_jasna",
+        "pl_spokojny_szept"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "pl_ciepla_rozmowa",
+      "type": "preset",
+      "name": "Polska — ciepła rozmowa",
+      "icon": "Smile",
+      "use_case": "conversational",
+      "facets": {
+        "gender": "female",
+        "age": "young adult",
+        "pitch": "moderate pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, young adult, moderate pitch",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    },
+    {
+      "id": "pl_lektorka",
+      "type": "preset",
+      "name": "Polska — lektorka",
+      "icon": "GraduationCap",
+      "use_case": "informative",
+      "facets": {
+        "gender": "female",
+        "age": "middle-aged",
+        "pitch": "moderate pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, middle-aged, moderate pitch",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    },
+    {
+      "id": "pl_niska_narratorka",
+      "type": "preset",
+      "name": "Polska — niska narratorka",
+      "icon": "BookOpen",
+      "use_case": "narration",
+      "facets": {
+        "gender": "female",
+        "age": "middle-aged",
+        "pitch": "low pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, middle-aged, low pitch",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    },
+    {
+      "id": "pl_nastolatka",
+      "type": "preset",
+      "name": "Polska — nastolatka",
+      "icon": "Bird",
+      "use_case": "characters",
+      "facets": {
+        "gender": "female",
+        "age": "teenager",
+        "pitch": "high pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, teenager, high pitch",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    },
+    {
+      "id": "pl_dojrzala",
+      "type": "preset",
+      "name": "Polska — dojrzała",
+      "icon": "Library",
+      "use_case": "narration",
+      "facets": {
+        "gender": "female",
+        "age": "elderly",
+        "pitch": "low pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, elderly, low pitch",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    },
+    {
+      "id": "pl_jasny_szept",
+      "type": "preset",
+      "name": "Polska — jasny szept",
+      "icon": "Moon",
+      "use_case": "narration",
+      "facets": {
+        "gender": "female",
+        "age": "young adult",
+        "pitch": "high pitch",
+        "accent": null,
+        "whisper": true,
+        "lang": "Polish"
+      },
+      "instruct": "female, young adult, high pitch, whisper",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    },
+    {
+      "id": "pl_mloda_jasna",
+      "type": "preset",
+      "name": "Polska — młoda, jasna",
+      "icon": "Sparkles",
+      "use_case": "social",
+      "facets": {
+        "gender": "female",
+        "age": "young adult",
+        "pitch": "high pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, young adult, high pitch",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    },
+    {
+      "id": "pl_spokojny_szept",
+      "type": "preset",
+      "name": "Polska — spokojny szept",
+      "icon": "Moon",
+      "use_case": "narration",
+      "facets": {
+        "gender": "female",
+        "age": "middle-aged",
+        "pitch": "low pitch",
+        "accent": null,
+        "whisper": true,
+        "lang": "Polish"
+      },
+      "instruct": "female, middle-aged, low pitch, whisper",
+      "language": "Polish",
+      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "polish-female"
+    }
+  ]
+}
