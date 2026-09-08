@@ -1,52 +1,29 @@
 {
   "schema_version": 1,
-  "name": "Polskie głosy żeńskie",
+  "name": "Głosy instruktorek BHP",
   "updated_at": "2026-09-08",
   "homepage": "https://github.com/tomalec85/omnivoice-gallery-pl",
   "packs": [
     {
-      "id": "polish-female",
-      "name": "Polskie głosy żeńskie",
-      "description": "Zestaw zaprojektowanych głosów kobiecych po polsku do VoiceStudio (OmniVoice).",
-      "icon": "Sparkles",
+      "id": "bhp-instruktorki",
+      "name": "Instruktorki szkoleń BHP",
+      "description": "Zaprojektowane głosy kobiece do prowadzenia szkoleń BHP: rzeczowe, wyraźne, dorosłe. Bez szeptu i głosu nastolatki.",
+      "icon": "GraduationCap",
       "item_ids": [
-        "pl_ciepla_rozmowa",
-        "pl_lektorka",
-        "pl_niska_narratorka",
-        "pl_nastolatka",
-        "pl_dojrzala",
-        "pl_jasny_szept",
-        "pl_mloda_jasna",
-        "pl_spokojny_szept"
+        "bhp_instruktorka",
+        "bhp_lektorka",
+        "bhp_trenerka",
+        "bhp_specjalistka",
+        "bhp_prowadzaca",
+        "bhp_inspektorka"
       ]
     }
   ],
   "items": [
     {
-      "id": "pl_ciepla_rozmowa",
+      "id": "bhp_instruktorka",
       "type": "preset",
-      "name": "Polska — ciepła rozmowa",
-      "icon": "Smile",
-      "use_case": "conversational",
-      "facets": {
-        "gender": "female",
-        "age": "young adult",
-        "pitch": "moderate pitch",
-        "accent": null,
-        "whisper": false,
-        "lang": "Polish"
-      },
-      "instruct": "female, young adult, moderate pitch",
-      "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
-      "author": "local",
-      "license": "OpenRAIL-M",
-      "source": "polish-female"
-    },
-    {
-      "id": "pl_lektorka",
-      "type": "preset",
-      "name": "Polska — lektorka",
+      "name": "BHP — instruktorka",
       "icon": "GraduationCap",
       "use_case": "informative",
       "facets": {
@@ -57,19 +34,40 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, moderate pitch",
+      "instruct": "female, middle-aged, moderate pitch, clear, professional, calm instructor",
       "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "sample_script": "Witam na szkoleniu z bezpieczeństwa i higieny pracy. Przed rozpoczęciem zajęć zapoznaj się z instrukcją stanowiskową. Środki ochrony indywidualnej są obowiązkowe.",
       "author": "local",
       "license": "OpenRAIL-M",
-      "source": "polish-female"
+      "source": "bhp-instruktorki"
     },
     {
-      "id": "pl_niska_narratorka",
+      "id": "bhp_lektorka",
       "type": "preset",
-      "name": "Polska — niska narratorka",
+      "name": "BHP — lektorka szkolenia",
       "icon": "BookOpen",
-      "use_case": "narration",
+      "use_case": "informative",
+      "facets": {
+        "gender": "female",
+        "age": "middle-aged",
+        "pitch": "moderate pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, middle-aged, moderate pitch, clear diction, e-learning narrator",
+      "language": "Polish",
+      "sample_script": "Omówimy zagrożenia na stanowisku pracy, zasady ewakuacji oraz postępowanie powypadkowe. Proszę słuchać uważnie i notować pytania.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "bhp-instruktorki"
+    },
+    {
+      "id": "bhp_trenerka",
+      "type": "preset",
+      "name": "BHP — spokojna trenerka",
+      "icon": "Heart",
+      "use_case": "informative",
       "facets": {
         "gender": "female",
         "age": "middle-aged",
@@ -78,117 +76,75 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, low pitch",
+      "instruct": "female, middle-aged, low pitch, calm, steady, reassuring trainer",
       "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "sample_script": "Każde urządzenie z ruchomymi częściami musi mieć sprawne osłony. Nie wolno ich demontować. Zauważone usterki zgłaszaj natychmiast, zanim wrócisz do pracy.",
       "author": "local",
       "license": "OpenRAIL-M",
-      "source": "polish-female"
+      "source": "bhp-instruktorki"
     },
     {
-      "id": "pl_nastolatka",
+      "id": "bhp_specjalistka",
       "type": "preset",
-      "name": "Polska — nastolatka",
-      "icon": "Bird",
-      "use_case": "characters",
-      "facets": {
-        "gender": "female",
-        "age": "teenager",
-        "pitch": "high pitch",
-        "accent": null,
-        "whisper": false,
-        "lang": "Polish"
-      },
-      "instruct": "female, teenager, high pitch",
-      "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
-      "author": "local",
-      "license": "OpenRAIL-M",
-      "source": "polish-female"
-    },
-    {
-      "id": "pl_dojrzala",
-      "type": "preset",
-      "name": "Polska — dojrzała",
-      "icon": "Library",
-      "use_case": "narration",
-      "facets": {
-        "gender": "female",
-        "age": "elderly",
-        "pitch": "low pitch",
-        "accent": null,
-        "whisper": false,
-        "lang": "Polish"
-      },
-      "instruct": "female, elderly, low pitch",
-      "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
-      "author": "local",
-      "license": "OpenRAIL-M",
-      "source": "polish-female"
-    },
-    {
-      "id": "pl_jasny_szept",
-      "type": "preset",
-      "name": "Polska — jasny szept",
-      "icon": "Moon",
-      "use_case": "narration",
-      "facets": {
-        "gender": "female",
-        "age": "young adult",
-        "pitch": "high pitch",
-        "accent": null,
-        "whisper": true,
-        "lang": "Polish"
-      },
-      "instruct": "female, young adult, high pitch, whisper",
-      "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
-      "author": "local",
-      "license": "OpenRAIL-M",
-      "source": "polish-female"
-    },
-    {
-      "id": "pl_mloda_jasna",
-      "type": "preset",
-      "name": "Polska — młoda, jasna",
-      "icon": "Sparkles",
-      "use_case": "social",
-      "facets": {
-        "gender": "female",
-        "age": "young adult",
-        "pitch": "high pitch",
-        "accent": null,
-        "whisper": false,
-        "lang": "Polish"
-      },
-      "instruct": "female, young adult, high pitch",
-      "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
-      "author": "local",
-      "license": "OpenRAIL-M",
-      "source": "polish-female"
-    },
-    {
-      "id": "pl_spokojny_szept",
-      "type": "preset",
-      "name": "Polska — spokojny szept",
-      "icon": "Moon",
-      "use_case": "narration",
+      "name": "BHP — specjalistka",
+      "icon": "ClipboardList",
+      "use_case": "informative",
       "facets": {
         "gender": "female",
         "age": "middle-aged",
         "pitch": "low pitch",
         "accent": null,
-        "whisper": true,
+        "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, low pitch, whisper",
+      "instruct": "female, middle-aged, low pitch, authoritative, precise, professional specialist",
       "language": "Polish",
-      "sample_script": "Cześć, witamy w tej krótkiej demonstracji głosu. Mam nadzieję, że spodoba ci się, jak brzmi.",
+      "sample_script": "Ocena ryzyka zawodowego to podstawa profilaktyki. Identyfikujemy zagrożenia, szacujemy skutki i wdrażamy środki ograniczające. Dokumentację aktualizuj po każdej zmianie procesu.",
       "author": "local",
       "license": "OpenRAIL-M",
-      "source": "polish-female"
+      "source": "bhp-instruktorki"
+    },
+    {
+      "id": "bhp_prowadzaca",
+      "type": "preset",
+      "name": "BHP — prowadząca (przystępna)",
+      "icon": "Users",
+      "use_case": "informative",
+      "facets": {
+        "gender": "female",
+        "age": "young adult",
+        "pitch": "moderate pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, young adult, moderate pitch, warm, clear, professional onboarding trainer",
+      "language": "Polish",
+      "sample_script": "Dzień dobry. Dziś przećwiczymy bezpieczne podnoszenie ładunków. Pamiętaj: prosty kręgosłup, ugięte kolana, ładunek blisko ciała. Nie spiesz się.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "bhp-instruktorki"
+    },
+    {
+      "id": "bhp_inspektorka",
+      "type": "preset",
+      "name": "BHP — inspektorka",
+      "icon": "Shield",
+      "use_case": "informative",
+      "facets": {
+        "gender": "female",
+        "age": "middle-aged",
+        "pitch": "low pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Polish"
+      },
+      "instruct": "female, middle-aged, low pitch, firm, clear, no-nonsense safety inspector",
+      "language": "Polish",
+      "sample_script": "Praca na wysokości bez uprawnień i asekuracji jest zabroniona. Wejście w strefę niebezpieczną bez zezwolenia skutkuje przerwaniem pracy. Tu nie ma wyjątków.",
+      "author": "local",
+      "license": "OpenRAIL-M",
+      "source": "bhp-instruktorki"
     }
   ]
 }
