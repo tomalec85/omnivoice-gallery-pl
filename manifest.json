@@ -91,13 +91,13 @@
       "use_case": "informative",
       "facets": {
         "gender": "female",
-        "age": "middle-aged",
+        "age": "elderly",
         "pitch": "low pitch",
         "accent": null,
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, low pitch",
+      "instruct": "female, elderly, low pitch",
       "language": "Polish",
       "sample_script": "Ocena ryzyka zawodowego to podstawa profilaktyki. Identyfikujemy zagrożenia, szacujemy skutki i wdrażamy środki ograniczające. Dokumentację aktualizuj po każdej zmianie procesu.",
       "author": "local",
