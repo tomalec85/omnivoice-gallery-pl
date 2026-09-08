@@ -34,7 +34,7 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, moderate pitch, clear, professional, calm instructor",
+      "instruct": "female, middle-aged, moderate pitch",
       "language": "Polish",
       "sample_script": "Witam na szkoleniu z bezpieczeństwa i higieny pracy. Przed rozpoczęciem zajęć zapoznaj się z instrukcją stanowiskową. Środki ochrony indywidualnej są obowiązkowe.",
       "author": "local",
@@ -55,7 +55,7 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, moderate pitch, clear diction, e-learning narrator",
+      "instruct": "female, middle-aged, moderate pitch",
       "language": "Polish",
       "sample_script": "Omówimy zagrożenia na stanowisku pracy, zasady ewakuacji oraz postępowanie powypadkowe. Proszę słuchać uważnie i notować pytania.",
       "author": "local",
@@ -76,7 +76,7 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, low pitch, calm, steady, reassuring trainer",
+      "instruct": "female, middle-aged, low pitch",
       "language": "Polish",
       "sample_script": "Każde urządzenie z ruchomymi częściami musi mieć sprawne osłony. Nie wolno ich demontować. Zauważone usterki zgłaszaj natychmiast, zanim wrócisz do pracy.",
       "author": "local",
@@ -97,7 +97,7 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, low pitch, authoritative, precise, professional specialist",
+      "instruct": "female, middle-aged, low pitch",
       "language": "Polish",
       "sample_script": "Ocena ryzyka zawodowego to podstawa profilaktyki. Identyfikujemy zagrożenia, szacujemy skutki i wdrażamy środki ograniczające. Dokumentację aktualizuj po każdej zmianie procesu.",
       "author": "local",
@@ -118,7 +118,7 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, young adult, moderate pitch, warm, clear, professional onboarding trainer",
+      "instruct": "female, young adult, moderate pitch",
       "language": "Polish",
       "sample_script": "Dzień dobry. Dziś przećwiczymy bezpieczne podnoszenie ładunków. Pamiętaj: prosty kręgosłup, ugięte kolana, ładunek blisko ciała. Nie spiesz się.",
       "author": "local",
@@ -139,7 +139,7 @@
         "whisper": false,
         "lang": "Polish"
       },
-      "instruct": "female, middle-aged, low pitch, firm, clear, no-nonsense safety inspector",
+      "instruct": "female, middle-aged, low pitch",
       "language": "Polish",
       "sample_script": "Praca na wysokości bez uprawnień i asekuracji jest zabroniona. Wejście w strefę niebezpieczną bez zezwolenia skutkuje przerwaniem pracy. Tu nie ma wyjątków.",
       "author": "local",
